@@ -20,6 +20,8 @@ Quirk follows semver, but not every version is actually released.
 
 This is because iOS/expo doesn't have a solid understanding of release candidates AFAIK. So in order to beta test, we bump the version in `app.json` and then release a version:
 
+
+
 ```
 yarn ship
 ```

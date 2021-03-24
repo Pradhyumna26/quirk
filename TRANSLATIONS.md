@@ -13,11 +13,9 @@
 Copy the `src/locals/en.json` file to a new locale following [the ISO-639-1](http://www.loc.gov/standards/iso639-2/php/English_list.php) code. If you have a region designator and you know it, add it as an underscore as described by @briankung.
 
 For example, if I wanted to translate to Finnish like @Walther, I would do:
-
 ```
 cp src/locals/en.json src/locals/fi.json
 ```
-
 Note that the convention typically uses the English name for the language, so no `suomi.json`! 😭
 
 ## Fill out the JSON file

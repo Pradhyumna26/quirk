@@ -34,7 +34,6 @@ if (Platform.OS === "android") {
     },
   });
 }
-
 const App = createBottomTabNavigator(
   {
     [MAIN_SCREEN]: MainScreen,
@@ -56,3 +55,5 @@ const App = createBottomTabNavigator(
 );
 
 export default withErrorBoundary(createAppContainer(App));
+
+
